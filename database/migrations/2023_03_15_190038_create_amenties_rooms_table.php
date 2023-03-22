@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('amenties_rooms', function (Blueprint $table) {
             $table->id();
             $table->foreignId('room_id')->references('id')->on('rooms');
-            $table->foreignId('amenities')->references('id')->on('amenities');
+            $table->foreignId('amenitie_id')->references('id')->on('amenities');
             $table->timestamps();
         });
     }
