@@ -13,4 +13,6 @@ class AmenitieRoom extends Model
         'room_id',
         'amenitie_id'
     ];
+
+    
 }
