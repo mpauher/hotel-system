@@ -11,9 +11,7 @@ class Amenitie extends Model
     use HasFactory;
 
     protected $fillable = [
-        'air_conditioning',
-        'room_service',
-        'jacuzzi'
+        'name',
     ]; 
 
     public function rooms(): BelongsToMany

@@ -13,9 +13,7 @@ return new class extends Migration
     {
         Schema::create('amenities', function (Blueprint $table) {
             $table->id();
-            $table->string('air_conditioning')->enum(['yes','no'])->default('yes');
-            $table->string('room_service')->enum(['yes','no'])->default('yes');
-            $table->string('jacuzzi')->enum(['yes','no'])->default('yes');
+            $table->string('name');
             $table->timestamps();
         });
     }
