@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    background-image: url('../images/logo.png');
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+} 
+
+.image-left{
+    background-image: url('../images/IMAGE.png');
+}
+
+.div-right{
+    background-color: #334C7B;
+}
+
+
+.input{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 40%);
+    border: none;
+    color: #fff;
+}
+
+.input::placeholder{
+    color: #fff;
+}
+
+.button-login{
+    background:#3C6CA3;
+    color: #fff;
+}
+
+
+/* VISTA AMENITIES */
+.bg-amenitie{
+    background: #334C7B;
+}
+
+.bg-table-amenitie{
+    background-color:#6DA5CC;
+}
+
+.bg-row-amenitie {
+    background-color: #242B43;
+    color: #fff;
+}
+
+.bg-title-table-amenitie{
+    background-color: #242B43;
+}
+
+.h2-amenities{
+    color: #fff;
+}
+
+.sub-title-amenitie{
+    background-color: #fff;
+    color: #1C1B31;
+}
