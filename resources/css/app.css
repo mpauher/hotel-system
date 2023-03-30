@@ -49,9 +49,9 @@
     background: #334C7B;
 }
 
-.bg-table-amenitie{
+/* .bg-table-amenitie{
     background-color:#6DA5CC;
-}
+} */
 
 .bg-row-amenitie {
     background-color: #242B43;
@@ -69,4 +69,25 @@
 .sub-title-amenitie{
     background-color: #fff;
     color: #1C1B31;
+}
+
+/* NAVBAR */
+.bg-navbar{
+    background-color: #242B43;
+    color: #fff;
+}
+
+.sub-title-navbar{
+    color: #fff;
+}
+
+.bg-header{
+    background-color: #334C7B;
+}
+
+.bg-header-title{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
