@@ -25,7 +25,7 @@ Route::get('/types',[TypeWebController::class,'index'])->name('type.index');
 Route::get('/types/new',[TypeWebController::class,'new'])->name('type.new');
 Route::post('/types/create',[TypeWebController::class,'create'])->name('type.create');
 Route::get('/types/{id}/put',[TypeWebController::class,'put'])->name('type.put');
-Route::patch('types/update',[TypeWebController::class,'update'])->name('type.update');
+Route::post('types/{id}/update',[TypeWebController::class,'update'])->name('type.update');
 Route::delete('/types/{id}/delete',[TypeWebController::class,'delete'])->name('type.delete');
 
 //ROUTES AMENITIES
@@ -33,7 +33,7 @@ Route::get('/amenities',[AmenitiesWebController::class,'index'])->name('amenitie
 Route::get('/amenities/new',[AmenitiesWebController::class,'new'])->name('amenitie.new');
 Route::post('/amenities/create',[AmenitiesWebController::class,'create'])->name('amenitie.create');
 Route::get('/amenities/{id}/put',[AmenitiesWebController::class,'put'])->name('amenitie.put');
-Route::patch('amenities/update',[AmenitiesWebController::class,'update'])->name('amenitie.update');
+Route::post('amenities/{id}/update',[AmenitiesWebController::class,'update'])->name('amenitie.update');
 Route::delete('/amenities/{id}/delete',[AmenitiesWebController::class,'delete'])->name('amenitie.delete');
 
 

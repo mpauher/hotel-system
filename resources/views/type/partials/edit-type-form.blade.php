@@ -8,9 +8,9 @@
 </head>
 <body>
     <section>
-        <form action="{{ route ('type.update',  $type->id) }}" method="patch"> 
+        <form action="{{ route ('type.update', $type->id) }}" method="post"> 
             @csrf      
-            @method('patch')
+            @method('post')
             <div>
               <x-input-label for="name" :value="__('Tipo:')" />
               <x-text-input id="name" name="name" type="text" class="mt-1 block w-full" required autofocus autocomplete="name" />
